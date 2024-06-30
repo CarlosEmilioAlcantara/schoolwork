@@ -121,4 +121,5 @@ The program effectively demonstrates key concepts in Python programming, includi
 > ```
 
 **Output**
+
 ![Output](./images/Capture.PNG)
