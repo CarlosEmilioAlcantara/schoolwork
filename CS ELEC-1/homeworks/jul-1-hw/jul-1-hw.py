@@ -1,6 +1,6 @@
 import datetime;
 
-class Area:
+class :Area
     def __init__(self):
         self.numbers = []
         self.now = datetime.datetime.now()

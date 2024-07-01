@@ -15,7 +15,7 @@
     <span>Research and Development Exercise</span>
 </div>
 
-For the completion of this research and development exercise I have created an object oriented python program that calculates for the areas of circles and squares. I will now proceed to explain my program by going through each requirement, proving that it indeed fulfills them.
+For the completion of this research and development exercise I have created an object oriented python program that calculates for the areas of circles and squares. The area of a shape is the space occupied by the boundary of a plane figures like circles, rectangles, and triangles. I will now proceed to explain my program by going through each requirement, proving that it indeed fulfills them.
 
 **Function**
 The program contains in total eight functions. Four of these functions are essentially the same and make use of inheritance and polymorphism to make the program shorter, simpler, and more elegant.
@@ -54,6 +54,8 @@ String formatting is used to make the output of the date cleaner. %B in date for
 
 **Conclusion**
 The program effectively demonstrates key concepts in Python programming, including the use of functions, object-oriented programming (OOP), lambda functions, arrays, and inheritance. It consists of eight functions, with four leveraging inheritance and polymorphism for simplicity and elegance. The ```__init__``` functions initialize objects, with the ```Area``` class setting up an array for numbers and the current date. The ```giveNumbers``` function handles user input with a while loop and try-except blocks for error handling, while the ```getArea``` function calculates areas using user-provided numbers and prints the date. The main function initiates the program by creating object instances and calling their functions. Lambda functions are used for concise area calculations, and the numbers array stores user inputs. The program employs three classes ```Area```, ```Square```, and ```Circle``` with ```Square``` and ```Circle``` inheriting from ```Area``` to extend functionality. The datetime module fetches and formats the current date, adding functionality. String formatting is used to display the date and area calculation results clearly. Inheritance, through the super function, reduces redundancy and promotes code reuse, while try-except blocks in ```giveNumbers``` ensure valid user input. While it was not required the program has also made usage of polymorphism via the ```__init__``` and ```getArea``` function. The ```__init___``` function is extended in the ```Square``` and ```Circle``` classes print functions with different values are present to provide respective prompts. While the ```getArea``` function in the ```Area``` class provides a general structure that is extended by the ```Square``` and ```Circle``` classes to calculate areas specific to their shapes.
+
+The program made use of the iterative 
 
 **Code**
 > ```python
