@@ -141,7 +141,7 @@ class Difference:
             except ValueError:
                 print("Wrong entry!")
 
-    def getUngroupedSampleMean():
+    def getUngroupedSampleMean(self):
         numbers = []
         summation = 0
         equation = ""
@@ -173,7 +173,7 @@ class Difference:
               "(" + strippedThree + ") / " + str(len(numbers)))
 
         sampleMeanUngrouped = summation/len(numbers)
-        print("The answer is: " + sampleMeanUngrouped)
+        print("The answer is: " + str(sampleMeanUngrouped))
 
     def getGroupedSampleMean(self, data):
         frequency = 0
@@ -193,9 +193,9 @@ class Difference:
 
 def main():
     calc = Difference()
-    # calc.getDifferenceOfSquares()
-    # calc.getDifferenceOfPoints()
-    # calc.getDoubleAngles()
+    calc.getDifferenceOfSquares()
+    calc.getDifferenceOfPoints()
+    calc.getDoubleAngles()
     calc.getUngroupedSampleMean()
 
     data = [((4, 8), 2), ((10, 20), 4)]
